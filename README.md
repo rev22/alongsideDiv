@@ -1,7 +1,7 @@
 alongsideDiv
 ============
 
-```alongsideDiv``` is a flexible, responsive css layout, aimed at displaying multiple blocks of text without enforcing a visual structure.
+```alongsideDiv``` is a flexible, responsive css layout, aimed at displaying multiple blocks of text in different columns, without enforcing a visual structure.
 
 
 Usage
@@ -9,10 +9,10 @@ Usage
 ```html
 <div class=alongsideCnt>
   <div class=alongside>
-    content (text, images)
+    content (text and in-text content)
   </div>
   <div class=alognside>
-    more content (text, images)
+    more content (text and in-text content)
   </div>
   ...and so on
 </div>
@@ -25,33 +25,29 @@ Because of the minimalistic approach, alongsideDiv has a small source code that 
 
 ```css
 .alongsideCnt {
-  vertical-align: top;
-  text-align: center;
-  clear:none;
-  position:relative;
-  display:inline-box;
+  vertical-align:  top;
+  text-align:      center;
+  display:         inline-box;
 }
 .alongside {
-  max-width:25em;
-  display:inline-block;
-  vertical-align:top;
-  padding:1em;
-  overflow:hidden;
+  max-width:       25em;
+  display:         inline-block;
+  vertical-align:  top;
+  padding:         1em;
+  overflow:        hidden;
 }
 .alongside:hover {
   overflow: auto;
 }
 .alongside > * {
-  vertical-align:baseline;
+  vertical-align: baseline;
 }
 ```
 
 Authors and licensing
 ---------------------
 
-© 2013 Michele Bini
+© 2013 Michele Bini <michele.bini@gmail.com>
 
 ```alongsideDiv``` is released with a permissive MIT-style license.
-
-
 
