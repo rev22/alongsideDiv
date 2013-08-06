@@ -11,12 +11,14 @@ Usage
   <div class=alongside>
     content (text and in-text content)
   </div>
-  <div class=alognside>
+  <div class=alongside>
     more content (text and in-text content)
   </div>
   ...and so on
 </div>
 ```
+
+The text centered horizontally, by default.
 
 Source
 ------
@@ -27,7 +29,6 @@ Because of the minimalistic approach, alongsideDiv has a small source code that 
 .alongsideCnt {
   vertical-align:  top;
   text-align:      center;
-  display:         inline-box;
 }
 .alongside {
   max-width:       25em;
