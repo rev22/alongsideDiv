@@ -18,7 +18,7 @@ Usage
 </div>
 ```
 
-The text centered horizontally, by default.
+The text is centered horizontally, by default.
 
 Source
 ------
